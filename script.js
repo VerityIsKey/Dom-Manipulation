@@ -27,8 +27,8 @@ container.appendChild(div);
 
 const btn = document.querySelector('#btn');
 //done using an arrow function 
-btn.addEventListener('click', () => {
-    alert("Hello World!");
+btn.addEventListener('click', function (e) {
+    e.target.style.background = 'blue';
 });
 
 const btn2 = document.querySelector('#btn2');
