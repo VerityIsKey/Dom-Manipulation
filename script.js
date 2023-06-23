@@ -24,3 +24,12 @@ para2.textContent = "ME TOO!";
 div.appendChild(para2);
 
 container.appendChild(div);
+
+const btn = document.querySelector('#btn');
+//done using an arrow function 
+btn.addEventListener('click', () => {
+    alert("Hello World!");
+});
+
+const btn2 = document.querySelector('#btn2');
+btn2.onclick = () => alert("Hello World!");
